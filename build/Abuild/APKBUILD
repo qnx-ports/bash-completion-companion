@@ -2,7 +2,7 @@
 # Alpine-Maintainer: fossdd <fossdd@pwned.life>
 pkgname=bash-completion
 pkgver=2.16.0
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Command-line tab-completion for bash"
 url="https://github.com/scop/bash-completion"
 arch="noarch"
@@ -91,7 +91,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 3711d6cb53cedff94efca0325479ac73f40b536fce250dbcc18ef120a8d0d2248f086ca26e245d163e6058d1b1087d57ced041317163d0e25592d6cb7acbc102  bash-completion-2.16.0.tar.xz
 "
